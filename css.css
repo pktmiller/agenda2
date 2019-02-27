@@ -8,13 +8,13 @@
 
 /* Global Styles *****
 **********************/
-* {
+* { /* Eliminate page margin */
    margin: 0px;
    padding: 0px;
 }
 
 a, a:link {
-  color: #05668D;
+  color: #05668D; /* #05668D Sea Blue */
 }
 
 body {
@@ -28,8 +28,8 @@ body {
 /* Header & Footer Styles *****
 **********************/
 header, footer {
-  background-color: #05668D;
-  color: #F0F3BD;
+  background-color: #05668D; /* #05668D Sea Blue */
+  color: #F0F3BD; /* #F0F3BD Pale Spring Bud (light green) */
 }
 /* header */
 header {
@@ -45,11 +45,38 @@ footer {
 **********************/
 nav {
   float:left;
-  padding: 15px;
+  padding: 20px 15px;
 }
 
 /* Data Section Styles *****
 **********************/
 #data {
   padding: 15px;
+}
+
+/* Table ************
+*********************/
+#data_table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#data_table td, #data_table th {
+  border: 1px solid #028090;
+  padding: 8px;
+}
+
+#data_table tr:nth-child(even){background-color: #F0F3BD;}
+
+#data_table tr:hover {
+  background-color: #02C39A; /* #02C39A Caribbean Green (bright green) */
+}
+
+#data_table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #028090;
+  color: #F0F3BD;
 }
