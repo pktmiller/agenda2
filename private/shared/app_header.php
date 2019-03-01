@@ -1,4 +1,4 @@
-<?php if (!isset($page_title)) { $page_title = 'Staff Area'; } ?>
+<?php if (!isset($page_title)) { $page_title = 'Agenda'; } ?>
 
 <?php require_once("../private/initialize.php"); ?>
 
@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/css.css">
-    <title>My App</title>
+    <title>Agenda</title>
   </head>
   <body>
     <header><h1>Application</h1></header>
